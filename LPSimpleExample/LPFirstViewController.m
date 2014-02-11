@@ -27,6 +27,10 @@
 
 -(void) viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view setAccessibilityLabel:@"firstView"];
+    [self.textField setAccessibilityLabel:@"textField"];
+    
     self.uiswitch.isAccessibilityElement = YES;
     self.uiswitch.accessibilityLabel = @"switch";
 
