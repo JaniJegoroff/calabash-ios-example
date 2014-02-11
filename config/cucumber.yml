@@ -1,0 +1,8 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+# Default profile
+default: --profile ipad
+
+ipad: RESET_BETWEEN_SCENARIOS=1 DEVICE_TARGET=simulator DEVICE=ipad
